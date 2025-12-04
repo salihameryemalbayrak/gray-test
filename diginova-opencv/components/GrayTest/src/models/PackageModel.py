@@ -45,7 +45,7 @@ class KeepSideFalse(Config):
     field: Literal["option"] = "option"
 
     class Config:
-        title = "Disable1"
+        title = "Disable"
 
 
 class KeepSideTrue(Config):
