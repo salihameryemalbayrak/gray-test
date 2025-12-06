@@ -73,7 +73,7 @@ class KeepSideBBox(Config):
 
 class Degree(Config):
     """
-        Positive angles specify counterclockwise rotation while negative angles indicate clockwise rotation.
+        Positive angles specify counterclockwise rotation while negative angles indicate clockwise rotation. <3
     """
     name: Literal["Degree"] = "Degree"
     value: int = Field(ge=-359.0, le=359.0,default=0)
